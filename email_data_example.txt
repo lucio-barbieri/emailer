@@ -1,0 +1,7 @@
+Source_addr: the-sending-email-address@example.com
+Password: your-bot-password
+Subject: the-email-subject
+Attachment_paths: first-file.pdf, second-file.pdf, ...
+Salute: your-salute
+Content: the-content-of-the-email
+new-lines-are-possible!
