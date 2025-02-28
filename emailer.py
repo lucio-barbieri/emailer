@@ -87,7 +87,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
 
         try:
             server.send_message(msg)
-            print(f"Message sended to {dst_email}...")
+            print(f"Message sent to {dst_email}...")
         except:
             print(f"Could not send email to {dst_email}")
             pass
